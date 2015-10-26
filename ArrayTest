@@ -1,0 +1,12 @@
+public class ArrayTesting {
+	public static void main(String[] args) {
+	int[] numList = {1,2,8,4,6,7}; {
+    	double ave = 0;
+    	for(int i=1; i<=numList.length; i++) {
+        	ave += numList[i];
+        	ave = ave / numList.length;
+        	System.out.println("Average: " + ave);
+    	}
+	}
+}
+}
